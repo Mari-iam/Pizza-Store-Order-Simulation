@@ -7,7 +7,7 @@ fake = Faker()
 fake.add_provider(PizzaProvider)
 
 folderName = "./"
-#These details are from your Aven account
+#These details are from your Aiven account
 producer = KafkaProducer(
     bootstrap_servers="your-server-ID",
     security_protocol="SSL",
