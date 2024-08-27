@@ -10,9 +10,9 @@ folderName = "./"
 producer = KafkaProducer(
     bootstrap_servers="your-server-ID",
     security_protocol="SSL",
-    ssl_cafile=folderName+"ca.pem",
-    ssl_certfile=folderName+"service.cert",
-    ssl_keyfile=folderName+"service.key",
+    ssl_cafile=folderName+"file.pem",
+    ssl_certfile=folderName+"file.cert",
+    ssl_keyfile=folderName+"file.key",
     value_serializer=lambda v: json.dumps(v).encode('ascii'),
     key_serializer=lambda v: json.dumps(v).encode('ascii')
 
