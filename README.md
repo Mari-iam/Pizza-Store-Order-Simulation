@@ -20,6 +20,5 @@ This script will:
 * Kafka: The project uses Kafka to simulate a real-time messaging system where each pizza order is treated as a message sent to a topic.
 * Aiven: Aiven’s managed Kafka service is utilized to ensure that the messages are securely stored and processed. Aiven provides a scalable and highly available Kafka environment, making it ideal for this simulation.
 
-
-https://github.com/user-attachments/assets/9d18fdaf-ab69-4f32-9c84-e3c472cc7c98
+https://github.com/user-attachments/assets/77123e6b-d8bf-4796-8f88-e7d7028084f9
 
