@@ -8,7 +8,7 @@ fake.add_provider(PizzaProvider)
 
 folderName = "./"
 producer = KafkaProducer(
-    bootstrap_servers="kafka-faker-mariammahmod035-1bbb.l.aivencloud.com:17316",
+    bootstrap_servers="your-server-ID",
     security_protocol="SSL",
     ssl_cafile=folderName+"ca.pem",
     ssl_certfile=folderName+"service.cert",
